@@ -1,0 +1,13 @@
+1 : créer un projet sur Google Api manager
+2 : Ajouter Google Drive Api et Google sheets API
+3 : Créer des identifiants (compte de service)
+        Quelle API utilisez-vous -> Google Drive API
+        A quelles données allez-vous accéder -> Application
+        Non
+        Créer un compte  (victor)
+        Rôle -> Editeur
+
+4: partager les droits d'accès du fichier sheets à l'addresse mail du compte créé depuis Google Sheets
+5: recuperer les credentials de nouveau user depuis console.cloud.google.com dans l'onglet clés du user
+6: créer un ficher python (ex: spreadsheet.py)
+    suite dans le fichier spreadsheet
