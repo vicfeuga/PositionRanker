@@ -1,4 +1,4 @@
-#PositionRanker
+PositionRanker
 
 The package is composed of a "final" folder which contains the final program and its different files. 
 
