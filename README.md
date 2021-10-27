@@ -12,3 +12,4 @@ To run the program, just go to the "final" directory and enter the command in th
 
 Make sure that the user you want to connect with has the rights. For this part, look at the file guidePython~GoogleSheets.txt in the guide folder.
 
+Google sheets link : https://docs.google.com/spreadsheets/d/1Ra6WPO_JKuNoT_oMN0qz4PBArpRE-s3MWAao_U7g6d4/edit?usp=sharing
