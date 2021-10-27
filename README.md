@@ -1,26 +1,14 @@
-# PositionRanker
+#PositionRanker
 
-Voici la documentation de la version 3 du Position Google Tracker.
+The package is composed of a "final" folder which contains the final program and its different files. 
 
-Le package est composé d'un dossier "final" qui contient le programme final
-et ses différents fichiers. Et un dossier "guide" qui contient différents guides
-pour mieux comprendre le code.
+And a "guide" folder which contains different guides to better understand the code.
 
-Dans cette version 3, le programme va dans un premier temps recuperer les 
-nb premiers resultats de la recherche pour les mots clés contenus sur une page
-google sheet. Puis, il va extraitre de ces requetes les lignes contenant les 
-noms de domaines (noms des feuilles dans le fichier google sheet) voulus.
-Ces données sont alors envoyées sur le google sheet. Et seront ensuite filtrées 
-sur la page correspondante au nom de domaine approprié.
+In this version, the program will first retrieve the first nb of search results for the keywords contained on a google sheet page. Then, it will extract from these queries the lines containing the desired domain names (names of the sheets in the google sheet file). This data is then sent to the google sheet. And will then be filtered on the page corresponding to the appropriate domain name.
 
-Pour lancer le programme, il suffit d'etre dans le repertoire "final" et entrer
-la commande dans le terminal: python3 positionRanker.py (ou utiliser un 
-compilateur python, ex:Thonny)
-Une fois le progamme lancé, il va demander d'entrer l'id du workbook sur lequel
-on souhaite travailler.
+To run the program, just go to the "final" directory and enter the command in the terminal: python3 positionRanker.py (or use a python compiler, e.g. Thonny). Once the program is launched, it will ask you to enter the id of the workbook you want to work on.
 
-/!\ Le workbook doit etre sembable à celui utilisé en exemple /!\
+/!\The workbook must be similar to the one used as an example /!\
 
-Il faut s'assurer que l'utilisateur avec lequel on souhaite se connecter ait 
-les droits. Pour cette partie, regarder le fichier guidePython~GoogleSheets.txt
-dans le dossier guide.
+Make sure that the user you want to connect with has the rights. For this part, look at the file guidePython~GoogleSheets.txt in the guide folder.
+
